@@ -21,13 +21,24 @@
     <!-- Custom styles for this template -->
     <link href="css/resume.css" rel="stylesheet">
 
+     <style>
+      .img-wrap {
+ /*       width: 200px;
+        height: 150px;
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        margin: 0;*/
+      }
+     </style>
+
   </head>
 
   <body id="page-top">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Clarence Taylor</span>
+        <span class="d-block d-lg-none">Gabriele Medeot</span>
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
         </span>
@@ -50,6 +61,9 @@
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
           <!-- <li class="nav-item">
@@ -61,6 +75,10 @@
 
     <div class="container-fluid p-0">
 
+      <!-- <div class="img-wrap">
+        <img src="img/london.jpg" alt="london", height="400">
+      </div> -->
+
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
           <h1 class="mb-0">Gabriele
@@ -71,16 +89,16 @@
           </div>
           <p class="lead mb-5">I am a Machine Learning Researcher and Software Engineer specialising in Deep Learning and generative models. I am able to build Machine Learning models extremely rapidly, and move them swiftly from prototype to production.  I’m a fast learner and acquire new knowledge easily. I am also a musician, playing wind instruments, Clarinet, Saxophone and flute.</p>
           <div class="social-icons">
-            <a href="#">
+            <a href="https://www.linkedin.com/in/gabriele-medeot-120aa9146/">
               <i class="fab fa-linkedin-in"></i>
             </a>
-            <a href="#">
+            <a href="https://github.com/gabriele-jukedeck">
               <i class="fab fa-github"></i>
             </a>
-            <a href="#">
+            <a href="https://twitter.com/raincatluke">
               <i class="fab fa-twitter"></i>
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/gabriele.medeot.3">
               <i class="fab fa-facebook-f"></i>
             </a>
           </div>
@@ -181,24 +199,52 @@
           <h2 class="mb-5">Skills</h2>
 
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline dev-icons">
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              python</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              keras</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              tensorflow</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              theano</li>            
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              matlab, octave</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              c++</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              java</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              html, css, bootstrap</li>
+          </ul>
+          <ul class="fa-ul mb-0"></ul>
+
+          <!-- <ul class="list-inline dev-icons">
             <li class="list-inline-item">
-              <i class="fab fa-html5"></i>
+              <i class="fab fa-python"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-cplusplus"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-js-square"></i>
+              <i class="fab fa-java"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-angular"></i>
+              <i class="fab fa-html"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-react"></i>
+              <i class="fab fa-php"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-node-js"></i>
+              <i class="fab fa-css3"></i>
             </li>
             <li class="list-inline-item">
               <i class="fab fa-sass"></i>
@@ -218,23 +264,68 @@
             <li class="list-inline-item">
               <i class="fab fa-npm"></i>
             </li>
-          </ul>
+          </ul> -->
+          <div class="subheading mb-3"> </div>
 
-          <div class="subheading mb-3">Workflow</div>
+          <div class="subheading mb-3">Knowledge</div>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
+              Artificial Intelligence</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
+              Machine Learning</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
+              Deep Learning</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
+              Reinforcement Learning</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Generative Models</li>
+
           </ul>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Passepartout Social</h3>
+              <div class="subheading mb-3"><a href="www.passepartoutsocial.co.uk">www.passepartoutsocial.co.uk </a> - The Secret House Party Community</div>
+              <div>With my friend Gianluca we created this website which is basically an Airbnb for house parties. Hosts can launch a party and people can apply to join and pay a quote.</div>
+            </div>
+          </div>
+<!-- 
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of Trieste</h3>
+              <div class="subheading mb-3">Bachelor's Degree in Software Engineering</div>
+              <div>I learnt all the skills required to design software in most programming languages as well as manage complex projects from beginning to the end.</div>
+              <p>GRADE 110/100</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">OCTOBER 2007 - APRIL 2012</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Conservatory of Trieste</h3>
+              <div class="subheading mb-3">Bachelor’s Degree in Clarinet Performance</div>
+              <div>Here I studied Clarinet performance to the professional level, and acquired the skills needed to play clarinet in orchestra and chamber music ensembles and teach music theory and clarinet performance.</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">JULY 2010</span>
+            </div>
+          </div>
+ -->
         </div>
       </section>
 
